@@ -1,0 +1,9 @@
+package com.inter.ex;
+
+public class Inter1 {
+	
+	public int getA();
+	
+	
+	
+}

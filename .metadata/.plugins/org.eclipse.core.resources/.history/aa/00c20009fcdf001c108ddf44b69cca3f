@@ -1,0 +1,11 @@
+package com.study;
+
+public class showHi
+
+public class show {
+
+	public static void main(String[] args) {
+		new Method_Test().showHi();//메소드 호출
+	}
+
+}

@@ -1,0 +1,13 @@
+package day0530;
+import java.util.*;
+import java.lang.reflect.Member;
+public class DelectAction implements Action {
+
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+}

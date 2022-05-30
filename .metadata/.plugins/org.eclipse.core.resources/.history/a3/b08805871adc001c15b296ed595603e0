@@ -1,0 +1,36 @@
+package newInter;
+
+public class InterFaceEX02 implements Inter1, Inter2, Inter3 {
+	int a = 100;
+	@Override
+	public int getData() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getA() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	InterFeceEx02 it = new InterFeceEx02();
+
+	Inter1 it1 = it;
+	Inter2 it2 = it;
+	Inter3 it3 = it;
+
+	System.out.println(it1.getA());
+	System.out.println(it2.getA());
+	System.out.println(it3.getData());
+
+	System.out.println(it instanceof Object);
+	System.out.println(it instanceof InterFeceEx02);
+	System.out.println(it instanceof Inter1);
+	System.out.println(it instanceof Inter2);
+	System.out.println(it instanceof Inter3);
+}
+}

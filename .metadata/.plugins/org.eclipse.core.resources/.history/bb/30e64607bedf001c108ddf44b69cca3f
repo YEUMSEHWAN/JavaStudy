@@ -1,0 +1,18 @@
+package Member;
+
+import java.util.Scanner;
+
+public class DeleteAction implements Action {
+
+	@Override
+	public void excute(Scanner sc) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

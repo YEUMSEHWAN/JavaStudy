@@ -1,0 +1,5 @@
+package Mouse;
+
+public interface IRF {
+
+}

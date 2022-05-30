@@ -1,0 +1,8 @@
+package Member;
+
+import java.util.*;
+
+public interface Action implements AddAction {
+
+	void execute(Scanner sc);
+}

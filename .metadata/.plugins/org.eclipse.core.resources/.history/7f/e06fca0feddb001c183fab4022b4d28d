@@ -1,0 +1,11 @@
+package newInter;
+
+public class Inter1 {
+	
+	public int getA() {
+		return 0;
+	}
+	
+	
+	
+}

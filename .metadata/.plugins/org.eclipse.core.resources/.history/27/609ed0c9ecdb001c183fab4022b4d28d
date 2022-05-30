@@ -1,0 +1,5 @@
+package com.inter.ex;
+
+public class Inter3 extends Inter1,Inter2{
+
+}

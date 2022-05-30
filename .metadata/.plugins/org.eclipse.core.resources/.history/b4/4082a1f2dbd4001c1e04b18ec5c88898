@@ -1,0 +1,19 @@
+package study;
+
+public class BookEx02 {
+
+	public static void main(String[] args) {
+		
+		Book mybook = new Book();			
+		mybook.name = "논어";
+		mybook.writer = "공자";
+		mybook.price =6000;
+		mybook.nowPage = 1;
+		mybook.isbn = "100000-11111-1111";
+		
+		
+		Book mybook2 = new Book();
+		
+	}
+
+}

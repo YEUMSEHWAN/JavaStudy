@@ -1,0 +1,34 @@
+package com.study;
+
+class Person {
+
+	String name;
+	int age;
+	int weight;
+	int height;
+
+	// 생성자 오버로딩(똑같은 이름의 생성자 3개)
+	public Person() {// 기본 생성자
+	}
+
+	public Person(int age) {
+		this.age = age;
+	}
+
+	public Person(String name) {
+		this.name = name;
+	}
+
+}
+
+public class ConstructorTest {// 생성자
+
+	public static void main(String[] args) {
+
+		Person p1 = new Person();
+		Person p2 = new Person(30);
+		Person p3 = new Person("홍길동");
+
+	}
+
+}

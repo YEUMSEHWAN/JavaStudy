@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="study.ClassExam01"/>
+    <fullyQualifiedTypeName name="study1.ClassExam"/>
+    <fullyQualifiedTypeName name="study.ClassExam"/>
+    <fullyQualifiedTypeName name="study.ValueParameter"/>
+    <fullyQualifiedTypeName name="study.VariavleEx"/>
+    <fullyQualifiedTypeName name="study.OverloadingEx01"/>
+    <fullyQualifiedTypeName name="study.OverloadingEx02"/>
+    <fullyQualifiedTypeName name="study.Circle"/>
+    <fullyQualifiedTypeName name="study.BookEx"/>
+    <fullyQualifiedTypeName name="study.ThisEx"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="Accoount.Account"/>
+    <fullyQualifiedTypeName name="inheritance.SuperTest"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.inherex.PointEx"/>
+    <fullyQualifiedTypeName name="com.inherex.ParentEx"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="com.inherex.SubExam"/>
+    <fullyQualifiedTypeName name="com.inherex.Book"/>
+    <fullyQualifiedTypeName name="ECar.ECar"/>
+    <fullyQualifiedTypeName name="com.ex.AbstractBicycle"/>
+    <fullyQualifiedTypeName name="com.absex.AbsEx01"/>
+    <fullyQualifiedTypeName name="com.absex.AbsEx02"/>
+    <fullyQualifiedTypeName name="com.absex.AbsExam"/>
+    <fullyQualifiedTypeName name="Mouse.RFMouse"/>
+    <fullyQualifiedTypeName name="java.lang.Record"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="com.Inner.OuterEx.InnerEx"/>
+    <fullyQualifiedTypeName name="com.Inner.MemberInner.Inner"/>
+    <fullyQualifiedTypeName name="day0527.StaticInner"/>
+    <fullyQualifiedTypeName name="day0527.StaticInner.Inner"/>
+    <fullyQualifiedTypeName name="day0527.OuterEx01"/>
+    <fullyQualifiedTypeName name="day0527.OuterEx01.InnerEx01"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.SwingContainer"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
+    <fullyQualifiedTypeName name="javax.swing.Action"/>
+    <fullyQualifiedTypeName name="Member.MemberMain"/>
+    <fullyQualifiedTypeName name="Member.MemberVO"/>
+    <fullyQualifiedTypeName name="com.study.Test001"/>
+</qualifiedTypeNameHistroy>

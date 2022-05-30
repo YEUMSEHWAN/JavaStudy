@@ -1,0 +1,9 @@
+package Member;
+import java.util.*;
+public class WriteAction implements Action {
+
+	public static void main(String[] args) {
+
+	}
+
+}

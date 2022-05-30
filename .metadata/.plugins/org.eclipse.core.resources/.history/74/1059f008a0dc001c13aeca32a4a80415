@@ -1,0 +1,55 @@
+package Score;
+
+import java.util.*;
+import java.util.jar.Attributes.Name;
+
+public class Sunglmpl implements Sung {
+	Scanner sc = new Scanner(System.in);
+	int people;
+
+	Record re[];
+
+	@Override
+	public void set() {// 인원수 입력받는 기능
+		do {
+			System.out.println("인원수 입력");
+			people = sc.nextInt();
+		} while (people < 1 || people > 10);
+		re = new Record[people];
+	}
+
+	@Override
+	public void input() {// 이름, 학번, 과목별 점수, 평균을 입력하는 기능,판정
+
+		String name;
+		String score[] = { "국어", "영어", "수학" };
+
+		int[] sco = new int[3];// 과목점수
+		int number, avg, sum;
+
+		do {
+
+			System.out.println("이름 , 학번 , 과목별 점수 , 평균 , 판정을 입력해주세요.");
+
+			System.out.println("이름 : ");
+			name = sc.next();// 이름
+			System.out.println("학번 : ");
+			number = sc.nextInt();// 학번
+		} while (people < 1 || people > 10);
+		for (int i = 0; i < score.length; i++) {// 과목
+		}
+		for (int i = 0; i < score.length; i++) {// 과목점수
+			System.out.println(111);
+		}
+
+	}
+
+	@Override
+	public void print() {// 결과값 출력하는 기능
+		System.out.println("국어 : ");
+		System.out.println("영어 : ");
+		System.out.println("수학 : ");
+		
+	}
+
+}

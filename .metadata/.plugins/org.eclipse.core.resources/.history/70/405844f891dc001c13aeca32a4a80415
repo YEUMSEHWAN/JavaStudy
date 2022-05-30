@@ -1,0 +1,22 @@
+package Mouse;
+
+public class RFMouse implements IRF {
+
+	@Override
+	public void wconnect() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void Wdisconnect() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package Member;
+
+import java.util.Scanner;
+
+public class UpdateAction implements Action {
+
+	@Override
+	public void excute(Scanner sc) {
+
+		System.out.println("수정할 회원 정보");
+		System.out.println("수정할 회원 정보 이름");
+		System.out.println("이름 입력 : ");
+		String name = sc.next();
+
+		MemberVO member = getUpdateMember(name);
+		if (member == null) {
+			System.out.println("수정할 회원을 정보가 존재하지 않습니다.");
+			return;
+
+		} else {
+			System.out.println("전화 번호 : ");
+			String tel = sc.next();
+			System.out.println("국   적  : ");
+			String nation = sc.next();
+			System.out.println("나    이 : ");
+			int age = sc.nextInt();
+			System.out.println("이 메 일  : ");
+			String email = sc.next();
+			System.out.println("이   름  : ");
+			String name1 = sc.next();
+
+			member = new MemberVO(age, name, tel, email, nation);
+
+			for (int i = 0; i < MemberMain.members.length; i++) {
+				if (MemberMain.members[i].getName().equals(name1)) {
+					MemberMain.members[i] = members;
+				}
+			}
+			return member;
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package Score;
+
+public class ScoreFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

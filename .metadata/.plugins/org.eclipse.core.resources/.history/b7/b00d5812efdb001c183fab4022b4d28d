@@ -1,0 +1,5 @@
+package newInter;
+
+public interface Inter1 {
+
+}

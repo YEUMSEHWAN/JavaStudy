@@ -1,0 +1,11 @@
+package day0525;
+
+public abstract class AbstractBicycle {
+	
+	//¸â¹ö º¯¼ö
+	int id;
+	String brand;
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package newInter;
+
+public class Inter1 {
+	
+	public int getA();
+	
+	
+	
+}

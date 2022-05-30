@@ -1,0 +1,10 @@
+
+public class InterfaceEx implements InterEx {
+
+	@Override
+	public int getA() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

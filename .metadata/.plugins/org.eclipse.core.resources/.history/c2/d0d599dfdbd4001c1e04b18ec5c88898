@@ -1,0 +1,13 @@
+package study;
+
+public class BookEx02 {
+
+	public static void main(String[] args) {
+		
+		Book mybook = new Book();
+		mybook.name = "논어";
+		mybook.writer = "공자";
+		
+	}
+
+}
