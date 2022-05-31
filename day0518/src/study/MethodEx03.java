@@ -2,7 +2,7 @@ package study;
 
 import java.io.*;
 
-public class MathodEx03 {
+public class MethodEx03 {
 						//  su1 , su2 (line No.70)
 	public static int plus(int x, int y) {// +
 		return x + y;

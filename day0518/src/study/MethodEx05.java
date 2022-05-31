@@ -2,7 +2,7 @@ package study;
 
 import java.io.*;
 
-public class MathodEx05 {
+public class MethodEx05 {
 
 
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,7 +18,7 @@ public class MathodEx05 {
 
 	public static void main(String[] args) throws IOException {
 		
-		MathodEx05 me = new MathodEx05();
+		MethodEx05 me = new MethodEx05();
 		//int kor = 30;
 		int kor = getInt("국어점수");
 		
