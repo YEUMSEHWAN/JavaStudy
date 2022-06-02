@@ -44,4 +44,11 @@
     <fullyQualifiedTypeName name="Member.MemberMain"/>
     <fullyQualifiedTypeName name="Member.MemberVO"/>
     <fullyQualifiedTypeName name="com.study.Test001"/>
+    <fullyQualifiedTypeName name="com.ysh.study.Member"/>
+    <fullyQualifiedTypeName name="com.ysh.inher.Parent"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.Method"/>
+    <fullyQualifiedTypeName name="com.ysh.inher.OverridingChild"/>
+    <fullyQualifiedTypeName name="com.spackageexample.PackageExample"/>
+    <fullyQualifiedTypeName name="com.packageexample.PackageExample"/>
+    <fullyQualifiedTypeName name="q.B"/>
 </qualifiedTypeNameHistroy>
