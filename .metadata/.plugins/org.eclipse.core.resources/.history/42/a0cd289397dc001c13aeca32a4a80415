@@ -1,7 +1,0 @@
-package Score;
-
-public abstract class ScoreExam {//추상메소드
-	
-	
-
-}

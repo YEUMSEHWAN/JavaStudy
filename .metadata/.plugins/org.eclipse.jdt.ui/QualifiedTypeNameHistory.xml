@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="study.ClassExam01"/>
-    <fullyQualifiedTypeName name="study1.ClassExam"/>
-    <fullyQualifiedTypeName name="study.ClassExam"/>
-    <fullyQualifiedTypeName name="study.ValueParameter"/>
-    <fullyQualifiedTypeName name="study.VariavleEx"/>
-    <fullyQualifiedTypeName name="study.OverloadingEx01"/>
-    <fullyQualifiedTypeName name="study.OverloadingEx02"/>
-    <fullyQualifiedTypeName name="study.Circle"/>
-    <fullyQualifiedTypeName name="study.BookEx"/>
-    <fullyQualifiedTypeName name="study.ThisEx"/>
-    <fullyQualifiedTypeName name="java.net.Socket"/>
-    <fullyQualifiedTypeName name="Accoount.Account"/>
-    <fullyQualifiedTypeName name="inheritance.SuperTest"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.inherex.PointEx"/>
     <fullyQualifiedTypeName name="com.inherex.ParentEx"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="com.inherex.SubExam"/>
@@ -51,4 +32,32 @@
     <fullyQualifiedTypeName name="com.spackageexample.PackageExample"/>
     <fullyQualifiedTypeName name="com.packageexample.PackageExample"/>
     <fullyQualifiedTypeName name="q.B"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.ysh.exception2.spaceException"/>
+    <fullyQualifiedTypeName name="com.ysh.exception2.SpaceException"/>
+    <fullyQualifiedTypeName name="com.ysh.exception2.MemoryException"/>
+    <fullyQualifiedTypeName name="com.ysh.exception2.InstallException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="com.ysh.exception3.MyException"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.ysh.generic.GenericEx01"/>
+    <fullyQualifiedTypeName name="com.ysh.generic.GenericEx02"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="com.ysh.generic.StackTest"/>
+    <fullyQualifiedTypeName name="com.ysh.generic.QueueTest"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>
