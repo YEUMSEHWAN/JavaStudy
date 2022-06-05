@@ -1,15 +1,15 @@
 package day0527;
 
 /*
- * static ÀÌ³Ê Å¬·¡½º
+ * static ì´ë„ˆ í´ë˜ìŠ¤
  * 
- * -static ÀÌ³Ê Å¬·¡½º·Î ¾îÂ¿ ¼ö ¾øÀÌ Á¤ÀÇÇÏ´Â °æ¿ì°¡ ÀÖ´Âµ¥
- * 	¾îÂ¿¼ö ¾øÀÌ Á¤ÀÇÇÏ´Â °æ¿ì¶õ ÀÌ³ÊÅ¬·¡½º ³»¿¡ static º¯¼ö¸¦ °¡Áö°í ÀÖÀ» °æ¿ì
- * 	¾îÂ¿¼ö ¾øÀÌ ÇØ´ç ÀÌ³ÊÅ¬·¡½º´Â staticÀ¸·Î ¼±¾ğÇØ¾ßÇÔ
+ * -static ì´ë„ˆ í´ë˜ìŠ¤ë¡œ ì–´ì©” ìˆ˜ ì—†ì´ ì •ì˜í•˜ëŠ” ê²½ìš°ê°€ ìˆëŠ”ë°
+ * 	ì–´ì©”ìˆ˜ ì—†ì´ ì •ì˜í•˜ëŠ” ê²½ìš°ë€ ì´ë„ˆí´ë˜ìŠ¤ ë‚´ì— static ë³€ìˆ˜ë¥¼ ê°€ì§€ê³  ìˆì„ ê²½ìš°
+ * 	ì–´ì©”ìˆ˜ ì—†ì´ í•´ë‹¹ ì´ë„ˆí´ë˜ìŠ¤ëŠ” staticìœ¼ë¡œ ì„ ì–¸í•´ì•¼í•¨
  * 	
- * ÀÌ³Ê Å¬·¡½ºÀÇ ÁöÁ¤¾î·Î static À» ±âÀçÇØ¾ß¸¸ ÇÔ
+ * ì´ë„ˆ í´ë˜ìŠ¤ì˜ ì§€ì •ì–´ë¡œ static ì„ ê¸°ì¬í•´ì•¼ë§Œ í•¨
  * 
- * 		Çü½Ä
+ * 		í˜•ì‹
  * 
  * 	class Outer{
  * 
@@ -22,7 +22,7 @@ package day0527;
  * }
  * }
  * 
- * Outer.Inner in =  new Outer.Inner(); ¶Ç´Â new Outer.new Inner();
+ * Outer.Inner in =  new Outer.Inner(); ë˜ëŠ” new Outer.new Inner();
  * 
  */
 public class StaticInner {
@@ -31,7 +31,7 @@ public class StaticInner {
 	private int b = 100;
 	static int c = 200;
 
-	static class Inner {// static À» ºÙÈ÷´Â °æ¿ì a,b´Â Á¢±Ù ºÒ°¡.
+	static class Inner {// static ì„ ë¶™íˆëŠ” ê²½ìš° a,bëŠ” ì ‘ê·¼ ê°€ëŠ¥.
 
 		static int d = 1000;
 
