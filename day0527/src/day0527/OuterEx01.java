@@ -1,16 +1,16 @@
 package day0527;
 
-public class OuterEx01 {//¿ÜºÎ
+public class OuterEx01 {//ì™¸ë¶€
 
-	public static class InnerEx01 {//³»ºÎ
+	public static class InnerEx01 {//ë‚´ë¶€
 		
 		static int x = 10;
 		
 		public static void main(String[] args) {
-			OuterEx01.InnerEx01 oi = new OuterEx01.InnerEx01();//°´Ã¼¸¦ ¸¸µç ÈÄ ¿ÜºÎ ¸Ş¼Òµå È£Ãâ
+			OuterEx01.InnerEx01 oi = new OuterEx01.InnerEx01();//ê°ì²´ë¥¼ ë§Œë“  í›„ ì™¸ë¶€ ë©”ì†Œë“œ í˜¸ì¶œ
 			
 			System.out.println("oi : "+oi.x);
-			System.out.println("oi : " + OuterEx01.InnerEx01.x);
+			System.out.println("oi : " + OuterEx01.InnerEx01.x);    
 			
 		}
 
