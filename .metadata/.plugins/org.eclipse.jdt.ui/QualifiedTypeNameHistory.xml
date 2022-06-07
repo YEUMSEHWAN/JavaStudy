@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.inherex.ParentEx"/>
-    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
-    <fullyQualifiedTypeName name="com.inherex.SubExam"/>
-    <fullyQualifiedTypeName name="com.inherex.Book"/>
-    <fullyQualifiedTypeName name="ECar.ECar"/>
-    <fullyQualifiedTypeName name="com.ex.AbstractBicycle"/>
     <fullyQualifiedTypeName name="com.absex.AbsEx01"/>
     <fullyQualifiedTypeName name="com.absex.AbsEx02"/>
     <fullyQualifiedTypeName name="com.absex.AbsExam"/>
@@ -54,10 +48,16 @@
     <fullyQualifiedTypeName name="com.ysh.generic.QueueTest"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="com.ysh.arraylist.LinkedListEx"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

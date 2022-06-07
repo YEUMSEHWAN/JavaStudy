@@ -1,9 +1,0 @@
-package Member;
-
-public class ListAction implements Action {
-
-	public static void main(String[] args) {
-
-	}
-
-}
