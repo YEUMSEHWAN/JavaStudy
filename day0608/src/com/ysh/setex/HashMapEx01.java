@@ -31,7 +31,8 @@ public class HashMapEx01 {
 			System.out.println(map.get(key));
 		}
 
-		map.put("영화", "달마야 놀자");
+		map.put("영화", "달마야 놀자");//키값은 변경은 안되고 값만 변경된다.
+		//키값은 중복되지 않는다.
 		System.out.println(map);
 
 	}
