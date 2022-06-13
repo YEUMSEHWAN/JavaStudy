@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.jdi.Method"/>
-    <fullyQualifiedTypeName name="com.ysh.inher.OverridingChild"/>
-    <fullyQualifiedTypeName name="com.spackageexample.PackageExample"/>
-    <fullyQualifiedTypeName name="com.packageexample.PackageExample"/>
-    <fullyQualifiedTypeName name="q.B"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
@@ -40,8 +35,6 @@
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -54,10 +47,17 @@
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.ysh.mapex.mscore.MyComparator"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.ysh.loginex.UserVO"/>
     <fullyQualifiedTypeName name="com.ysh.loginex.LoginSVC"/>
+    <fullyQualifiedTypeName name="com.ysh.enumEx.EnumEx01"/>
+    <fullyQualifiedTypeName name="com.ysh.enumEx.Operation"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.ysh.treemapEx.ScoreRec"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>
