@@ -26,4 +26,6 @@
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 	</section>
+	<section name="NewWizardAction">
+	</section>
 </section>
