@@ -9,6 +9,8 @@ public class EmployeeVO { // VO : Value ObjectÀÇ ¾àÀÚ
 	private int department;
 	private String email;
 	private String status;
+	
+	
 	public EmployeeVO() {	
 	}
 	

@@ -54,31 +54,67 @@ public class Addpane extends JPanel implements ActionListener, ItemListener {
 			combo.addItem(c * 10);
 
 		}
-			jp[i].add(combo);
+		jp[i].add(combo);
+		combo.addItemListener(this);
 
-			jp[size] = new JPanel();
+		jp[size] = new JPanel();
 
-			okb = new JButton("저장하기");
+		okb = new JButton("저장하기");
+		okb.addActionListener(this);
 
-			rsb = new JButton("다시쓰기");
+		rsb = new JButton("다시쓰기");
+		rsb.addActionListener(this);
 
-			jp[size].add(okb);
-			jp[size].add(rsb);
-
+		jp[size].add(okb);
+		jp[size].add(rsb);
 
 		add(jp[size]);
 
 	}
 
+	/*
+	 * itemStateChanged(ItemEvent e) - comboBox의 내용을 선택할때 사용함 -
+	 */
 	@Override
-	public void itemStateChanged(ItemEvent e) {
-		// TODO Auto-generated method stub
+	public void itemStateChanged(ItemEvent ie) {
+
+		if (ie.getStateChange() == ItemEvent.SELECTED) {
+			department = Integer.parseInt(ie.getItem().toString());
+		}
 
 	}
 
+	/*
+	 * actionPerformed(ActionEvent e) 저장하기 버튼을 누르면 텍스트 필드의 내용을 데이터베이스에 저장함 다시쓰기 버튼을
+	 * 누르면 셑스트 필드를 초기화 함
+	 */
 	@Override
-	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+	public void actionPerformed(ActionEvent ae) {
+
+		String ae_type = ae.getActionCommand();
+		EmployeeVO evo = null;
+		EmployeeDAO edvo = null;
+
+		if (ae_type.equals(okb.getText())) {
+			try {
+				evo = new EmployeeVO(0, tf[0].getText(), tf[1].getText(), department, tf[2].getText());
+				
+				edvo = new EmployeeDAO();
+				edvo.getEmployeeregiste(evo);
+
+			} catch (Exception e) {
+				System.out.println("e : [" + e + "]");
+
+			}
+			if (edvo != null) {
+				JOptionPane.showMessageDialog(this, tf[0].getText() + "님이 성공적으로 추가 되었습니다.");
+			}
+		} else if (ae_type.equals(rsb.getText())) {
+			int size = caption.length;
+			for (int i = 0; i < size - 1; i++) {
+				tf[i].setText("");
+			}
+		}
 
 	}
 
